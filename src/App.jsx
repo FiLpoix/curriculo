@@ -1,5 +1,6 @@
 import './App.css'
 import Sidebar from './components/sidebar'
+import About from './components/About'
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <h1>Luiz Filipi</h1>
 
       <Sidebar />
+      <About />
     </div>
   )
 }
