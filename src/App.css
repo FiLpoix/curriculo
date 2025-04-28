@@ -1,0 +1,44 @@
+#root {
+  display: flex;
+  flex: 1;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.curriculumContainer{
+}
+
+.sidebarContainer{
+  background-color: #000;
+  padding-top: 20px;
+
+}
+
+.Icon{
+  width: 20px;
+  height: 20px;
+}
+
+.profile{
+  width:100px;
+  height:100px
+}
+
+.socialMediaContainer{
+}
+
+.socialText{
+  background-color: #2D2F3A;
+  border-radius: 5px;
+}
+
+.contactContainer{
+  display: inline-flex;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  background-color: #2D2F3A;
+  border-radius: 10px;
+}
