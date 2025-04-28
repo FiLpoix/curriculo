@@ -6,19 +6,17 @@
   flex: 1;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
-.curriculumContainer{
-}
 
 .sidebarContainer{
   background-color: #000;
   padding-top: 20px;
   height: 100%;
   width: 300px;
-
+  border-radius: 20px;
 }
 
 .Icon{
@@ -28,23 +26,22 @@
 
 .profile{
   width:100px;
-  height:100px
-}
-
-.socialMediaContainer{
+  height:100px;
 }
 
 .socialText{
-  align-items: center;
   background-color: #2D2F3A;
   border-radius: 5px;
 }
 
 .contactContainer{
-  display: inline-flex;
-  align-items: center;
   margin: 20px;
-  padding: 10px;
   background-color: #2D2F3A;
   border-radius: 10px;
+}
+
+.iconText{
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
 }

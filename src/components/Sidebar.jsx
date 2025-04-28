@@ -10,21 +10,29 @@ const Sidebar = () => {
 
       <div className="socialMediaContainer">
         <div className="socialText">
-          <p>teste</p>
+          <p>Desenvolvedor Front End</p>
         </div>
 
-        <FaInstagram className="instagram Icon" />
-        <FaSquareXTwitter className="xwitter Icon" />
         <FaLinkedin className="linkedin Icon" />
+        <FaSquareXTwitter className="xwitter Icon" />
+        <FaInstagram className="instagram Icon" />
       </div>
 
       <div className="contactContainer">
+        <div className='iconText'>
         <FaDiscord className="discord Icon" />
         <p>filpo#6061 </p>
+        </div>
+
+        <div className='iconText'>
         <MdEmail className="email Icon" />
         <p>luizfilipi3246@gmail.com </p>
+        </div>
+
+        <div className='iconText'>
         <FaMagnifyingGlass className="search Icon" />
         <p>filpoix </p>
+        </div>
       </div>
     </div>
   );
