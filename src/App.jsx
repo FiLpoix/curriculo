@@ -7,8 +7,10 @@ function App() {
     <div className='curriculumContainer'>
       <h1 className='nameTitle'>Luiz Filipi</h1>
 
+      <div className='content'>
       <Sidebar />
       <About />
+      </div>
     </div>
   )
 }
