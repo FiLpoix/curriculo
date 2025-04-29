@@ -80,7 +80,7 @@ const About = () => {
         </div>
       </div>
 
-      <div>
+      <div className='projectContainer'>
         <h1>Projetos</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minus

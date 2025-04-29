@@ -31,6 +31,7 @@
   display: inline-flex;
   margin-right: 10px;
   background-color: #1d1d1d;
+  border-radius: 5px;
 }
 
 .Icon {
@@ -75,12 +76,15 @@
   height: 100px;
 }
 
-.socialText {
+.socialText{
   background-color: #1d1d1d;
-  border-radius: 5px;
+  margin: 30px;
+  padding: 2px;
+  border-radius: 15px;
 }
 
 .contactContainer {
+  display: grid;
   margin: 20px;
   background-color: #1d1d1d;
   border-radius: 5px;
@@ -92,6 +96,7 @@
   align-items: center;
   gap: 10px;
   margin-left: 5px;
+  border-bottom: 1px solid #444444;
 }
 
 button {
@@ -146,6 +151,11 @@ button {
   display: inline-block;
   text-align: start;
   margin-left: 10px;
+}
+
+.projectContainer{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .html {

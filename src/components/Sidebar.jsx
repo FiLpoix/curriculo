@@ -1,6 +1,6 @@
 import avatar from "../assets/profilePic.webp";
 import { FaInstagram, FaLinkedinIn, FaDiscord, FaGithub } from "react-icons/fa";
-import { FaSquareXTwitter, FaLocationDot } from "react-icons/fa6";
+import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
 const Sidebar = () => {
