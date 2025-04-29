@@ -1,39 +1,54 @@
 import avatar from "../assets/profilePic.webp";
-import { FaInstagram, FaLinkedin, FaDiscord } from "react-icons/fa";
-import { FaSquareXTwitter, FaMagnifyingGlass } from "react-icons/fa6";
+import { FaInstagram, FaLinkedinIn, FaDiscord, FaGithub } from "react-icons/fa";
+import { FaSquareXTwitter, FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
 const Sidebar = () => {
   return (
     <div className="sidebarContainer">
-      <img src={avatar} className="profile" />
-
-      <div className="socialMediaContainer">
+      <div>
+        <img src={avatar} className="profile" />
         <div className="socialText">
           <p>Desenvolvedor Front End</p>
         </div>
+      </div>
 
-        <FaLinkedin className="linkedin Icon" />
-        <FaSquareXTwitter className="xwitter Icon" />
-        <FaInstagram className="instagram Icon" />
+      <div className="socialMediaContainer">
+        <div className="iconLink">
+          <FaLinkedinIn className="linkedin Icon" />
+        </div>
+        <div className="iconLink">
+          <FaGithub className="github Icon" />
+        </div>
+        <div className="iconLink">
+          <FaInstagram className="instagram Icon" />
+        </div>
       </div>
 
       <div className="contactContainer">
-        <div className='iconText'>
-        <FaDiscord className="discord Icon" />
-        <p>filpo#6061 </p>
+        <div className="iconText">
+          <div className="iconBg">
+            <FaDiscord className="discord Icon" />
+          </div>
+          <p>filpo#6061 </p>
         </div>
 
-        <div className='iconText'>
-        <MdEmail className="email Icon" />
-        <p>luizfilipi3246@gmail.com </p>
+        <div className="iconText">
+          <div className="iconBg">
+            <MdEmail className="email Icon" />
+          </div>
+          <p>luizfilipi@gmail.com </p>
         </div>
 
-        <div className='iconText'>
-        <FaMagnifyingGlass className="search Icon" />
-        <p>filpoix </p>
+        <div className="iconText">
+          <div className="iconBg">
+            <FaLocationDot className="loc Icon" />
+          </div>
+          <p>Teresina-PI </p>
         </div>
       </div>
+
+      <button className="downloadBtn">Download currículo</button>
     </div>
   );
 };

@@ -10,18 +10,58 @@
   text-align: center;
 }
 
+.nameTitle{
+  text-align: start;
+  color: #ed3d63;
+  margin-left: 40px;
+}
 
 .sidebarContainer{
-  background-color: #000;
+  background-color: #111111;
   padding-top: 20px;
   height: 100%;
   width: 300px;
   border-radius: 20px;
 }
 
+.iconLink{
+  display: inline-flex;
+  margin-right: 10px;
+  background-color: #1d1d1d;
+}
+
 .Icon{
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.linkedin, .icon{
+  color: #0072b1;
+  padding: 2px;
+}
+
+.github{
+  padding: 2px;
+}
+
+.instagram, .icon{
+  color: #bc2a8d;
+  padding: 2px;
+}
+
+.discord, .icon{
+  color: #7289da;
+}
+
+.loc{
+  color: #c17ceb;
+}
+
+.iconBg{
+  background-color: #000;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 5px;
 }
 
 .profile{
@@ -30,18 +70,27 @@
 }
 
 .socialText{
-  background-color: #2D2F3A;
+  background-color: #1d1d1d;
   border-radius: 5px;
 }
 
 .contactContainer{
   margin: 20px;
-  background-color: #2D2F3A;
-  border-radius: 10px;
+  background-color: #1d1d1d;
+  border-radius: 5px;
+  text-align: start;
 }
 
 .iconText{
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
+  margin-left: 5px;
+}
+
+.downloadBtn{
+  border-radius: 25px;
+  background-color: #ed3d63;
+  margin-top: 10px;
+  height: 50px;
 }

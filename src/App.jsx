@@ -5,7 +5,7 @@ import About from './components/About'
 function App() {
   return (
     <div className='curriculumContainer'>
-      <h1>Luiz Filipi</h1>
+      <h1 className='nameTitle'>Luiz Filipi</h1>
 
       <Sidebar />
       <About />
