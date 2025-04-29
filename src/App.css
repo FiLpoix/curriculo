@@ -10,110 +10,164 @@
   text-align: center;
 }
 
-.content{
+.content {
   display: inline-flex;
 }
 
-.nameTitle{
+.nameTitle {
   text-align: start;
   color: #ed3d63;
   margin-left: 40px;
 }
 
-.sidebarContainer{
+.sidebarContainer {
   background-color: #111111;
   padding-top: 20px;
   border-radius: 20px;
+  width: 30rem;
 }
 
-.iconLink{
+.iconLink {
   display: inline-flex;
   margin-right: 10px;
   background-color: #1d1d1d;
 }
 
-.Icon{
+.Icon {
   width: 30px;
   height: 30px;
 }
 
-.linkedin, .icon{
+.linkedin,
+.icon {
   color: #0072b1;
   padding: 2px;
 }
 
-.github{
+.github {
   padding: 2px;
 }
 
-.instagram, .icon{
+.instagram,
+.icon {
   color: #bc2a8d;
   padding: 2px;
 }
 
-.discord, .icon{
+.discord,
+.icon {
   color: #7289da;
 }
 
-.loc{
+.loc {
   color: #c17ceb;
 }
 
-.iconBg{
+.iconBg {
   background-color: #000;
   padding-left: 3px;
   padding-right: 3px;
   border-radius: 5px;
 }
 
-.profile{
-  width:100px;
-  height:100px;
+.profile {
+  width: 100px;
+  height: 100px;
 }
 
-.socialText{
+.socialText {
   background-color: #1d1d1d;
   border-radius: 5px;
 }
 
-.contactContainer{
+.contactContainer {
   margin: 20px;
   background-color: #1d1d1d;
   border-radius: 5px;
   text-align: start;
 }
 
-.iconText{
+.iconText {
   display: inline-flex;
   align-items: center;
   gap: 10px;
   margin-left: 5px;
 }
 
-.downloadBtn{
+button {
   border-radius: 25px;
-  background-color: #ed3d63;
+  background: #f95053;
+  background: linear-gradient(
+    90deg,
+    rgba(249, 80, 83, 1) 0%,
+    rgba(236, 59, 101, 1) 30%,
+    rgba(222, 38, 117, 1) 70%
+  );
   margin-top: 10px;
   height: 50px;
 }
 
-
 /* ---------------------------------------- */
 
-.aboutContainer{
-  padding-left: 10px;
+.aboutContainer {
+  padding-left: 30px;
   margin-left: 50px;
+  background-color: #111111;
+  border-radius: 20px;
+  width: 78rem;
 }
 
-.about h1{
+.aboutContainer h1{
   text-align: start;
 }
 
-.tech h1{
+.aboutContainer p{
   text-align: start;
 }
 
-.aboutIcon{
+.aboutIcon {
   width: 80px;
   height: 80px;
+}
+
+.containerCard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 45%;
+  border: 1px solid #333333;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.textCard {
+  display: inline-block;
+  text-align: start;
+  margin-left: 10px;
+}
+
+.html {
+  color: #e44d26;
+}
+
+.css {
+  color: #1572b6;
+}
+
+.js {
+  color: #f0db4f;
+}
+
+.node {
+  color: #83cd29;
+}
+
+.sql {
+  color: #00618a;
+}
+
+.react {
+  color: #61dafb;
 }
