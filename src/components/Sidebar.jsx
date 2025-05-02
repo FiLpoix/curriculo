@@ -1,4 +1,4 @@
-import avatar from "../assets/profilePic.webp";
+import avatar from "../assets/icon.jpg";
 import { FaInstagram, FaLinkedinIn, FaDiscord, FaGithub } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
@@ -7,7 +7,9 @@ const Sidebar = () => {
   return (
     <div className="sidebarContainer">
       <div>
+        <div className="avatarContainer">
         <img src={avatar} className="profile" />
+        </div>
         <div className="socialText">
           <p>Desenvolvedor Front End</p>
         </div>

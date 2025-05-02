@@ -27,6 +27,29 @@
   width: 30rem;
 }
 
+.avatarContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+}
+
+.profile {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid #1d1d1d;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  transform: translateY(-15px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #000;
+}
+
+.profile:hover {
+  transform: translateY(-25px) scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+}
+
 .iconLink {
   display: inline-flex;
   margin-right: 10px;
